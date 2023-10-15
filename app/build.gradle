@@ -6,10 +6,10 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('debug.keystore')
-            storePassword 'default'
-            keyAlias 'default'
-            keyPassword 'default'
+            // storeFile file('debug.keystore')
+            // storePassword 'default'
+            // keyAlias 'default'
+            // keyPassword 'default'
         }
     }
     compileSdkVersion 30
@@ -28,7 +28,7 @@ android {
 
     buildTypes {
         debug {
-            signingConfig signingConfigs.debug
+            // signingConfig signingConfigs.debug
           }
         release {
             minifyEnabled false
