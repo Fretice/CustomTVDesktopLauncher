@@ -22,7 +22,7 @@ jobs:
 
 
     - name: Set up Android Emulator
-      uses: actions/virtual-device-testing-for-android@v1
+      uses: android/setup-android@v2
       with:
           api-level: 29 # 设置 Android 10.0 (API level 29) 为目标版本
 
