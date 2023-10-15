@@ -20,12 +20,6 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-
-    - name: Set up Android Emulator
-      uses: actions/setup-android@v2
-      with:
-          android-api-level: 29
-          android-build-tools-version: 29.0.2
           
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
